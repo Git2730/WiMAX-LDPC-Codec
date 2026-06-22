@@ -157,7 +157,7 @@ g++ -std=c++17 -O2 -o test_encoder test.cpp -lm
 
 ---
 
-## What Each Module Does (Plain English)
+## What Each Module Does
 
 ### `FixedPointLLR<N_BITS>`
 Stores numbers in a fixed number of bits, just like real hardware does. If a value gets too big or too small, it clips to the max/min instead of overflowing. N=5 means values stay in the range −15 to +15.
